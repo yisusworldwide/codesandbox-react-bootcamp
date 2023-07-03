@@ -1,4 +1,14 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  border: 2px solid #000;
+  width: 300px;
+}
+
+img {
+    width: 150px;
+}
+
+h1 {
+    color: rgb(21, 175, 85);
 }

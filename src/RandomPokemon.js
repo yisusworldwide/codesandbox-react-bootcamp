@@ -3,9 +3,9 @@ export default function RandomPokemon() {
   const url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${num}.png
 `
   return (
-    <section>
-      <h2>Pokemon #{num}</h2>
+    <div>
+      <h1>PokerSara #{num}</h1>
       <img src={url} alt=""/>
-    </section>
+    </div>
   );
 }
